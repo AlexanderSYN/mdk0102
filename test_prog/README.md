@@ -31,9 +31,10 @@
 
 ## 📎 Ссылки
 - [Код теста BankAccount](https://github.com/AlexanderSYN/mdk0102/blob/main/test_prog/test/BankAccountTest.java)
-- [Код теста ToDoList](https://github.com/AlexanderSYN/mdk0102/blob/main/test_prog/test/ToDoListTest.java))
+- [Код теста ToDoList](https://github.com/AlexanderSYN/mdk0102/blob/main/test_prog/test/ToDoListTest.java)
 
 *Дата: 11.03.2026*
+
 
 
 
