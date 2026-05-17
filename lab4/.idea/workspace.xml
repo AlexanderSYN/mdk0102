@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2adcd69f-79ce-4b13-b3cd-7d79a76c8edf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/ru/zelmex/katin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/ru/zelmex/katin/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/ru/zelmex/katin/mainCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/ru/zelmex/katin/mainCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab4/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab4/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/zelmex/katin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/zelmex/katin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/zelmex/katin/mainCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/zelmex/katin/mainCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MainTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AlexanderSYN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AlexanderSYN/mdk0102",
+    "accountId": "20e8fd1b-29aa-4610-8318-039e050f6ab2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3DrqGJ5oPPeC56RN4TSuAROWAEp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testCreateArrayB.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/00077/Desktop/zmc/mdk0102/lab4",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2adcd69f-79ce-4b13-b3cd-7d79a76c8edf" name="Changes" comment="" />
+      <created>1779050438995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779050438995</updated>
+      <workItem from="1779050440585" duration="6114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -11,24 +11,24 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        outputArrA(a);
+        outputArr(a, "a");
 
         //=================
         // задание 1
         //=================
         System.out.println("Вывод произведение элементов массива a, которые меньше числа C, и колич таких элементов");
-        System.out.println("Произведение элементов: " + proizvEl + "\n");
-        System.out.println("Количество: " + multiplyElArrALessC(a, c, proizvEl) + "\n");
+        System.out.println("Произведение элементов: " + proizvElem + "\n");
+        System.out.println("Количество: " + processElementsLessThanC(a, c) + "\n");
 
         //=================
         // задание 2
         //=================
-        getArrBAndFill(b, a);
+        createArrayB();
 
         //=================
         // задание 3
         //=================
-        System.out.printf("сумма элементов массива b = %.3f\n", getSummElemArr(b));
+        System.out.printf("сумма элементов массива b = %.3f\n", sumArrayB());
     }
 
 

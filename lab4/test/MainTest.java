@@ -1,37 +1,53 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.zelmex.katin.mainCode;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import static ru.zelmex.katin.mainCode.*;
 
 class MainTest {
+    private final double[] testArrayB = {7.0, 4.0, 2.0, 8.0, 4.0, 2.0, 9.0, 6.0, 3.0,
+            1.0, 4.0, 6.0, 8.0, 3.0, 2.0};
 
     @Test
-    void TestOutputArrA() {
-        int[] expectedArray = {1, 5, 3, 7, 2, 8, 3, 9, 2, 10, 4, 2, 7, 3, 5};
-        int[] actualArray = a;
+    @DisplayName("Тест: умножение элементов массива A меньше чем C")
+    void testProcessElementsLessThanC() {
+        int expected = 1;
+        int actual = proizvElem;
 
-        assertArrayEquals(expectedArray, actualArray);
-    }
-
-    @Test
-    void TestMultiplyElArrALessC() {
-        double expected = 1;
-        double actual = multiplyElArrALessC(a, c, proizvEl);
         assertEquals(expected, actual);
     }
 
     @Test
-    void TestGetArrBAndFill() {
-        double[] expected = {2.067, 2.333, 2.200, 2.467, 2.133, 2.533,
-                2.200, 2.600, 2.133, 2.667, 2.267, 2.133, 2.467, 2.200, 2.33};
-        double[] actual = getArrBAndFill(b, a);
+    @DisplayName("Тест: создания массива B")
+    void testCreateArrayB() {
+        double[] expected = expectedCreateArrayB();
+        double[] actual = forTestCreateArrayB();
 
         assertArrayEquals(expected, actual);
     }
+    double[] expectedCreateArrayB() {
+        double[] expected = new double[15];
+
+        for (int i = 0; i < expected.length; i++)
+            expected[i] = a[i] / 15.0 + 2;
+
+        return expected;
+    }
 
     @Test
-    void TestGetSummElemArr() {
+    @DisplayName("Тест: проверка суммы массива B")
+    void testSumArrayB() {
+        double expected = expectedSumArrayB();
+        double actual = sumArrayB();
+
+        assertEquals(expected, actual);
+    }
+    double expectedSumArrayB() {
+        double sum = 0;
+
+        for (int i = 1; i < testArrayB.length; i+=2)
+            sum += testArrayB[i];
+
+        return sum;
     }
 }
